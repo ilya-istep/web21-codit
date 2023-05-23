@@ -2,11 +2,26 @@ body{
     background-color: gray;
 }
 
-.panel_active{
+.overlay{
+    position: fixed;
+    background: #000;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    opacity: 0.3;
+    z-index: 998;
+}
+
+.content{
+    height: 2000px;
+}
+
+.menu{
     position: fixed;
     top: 0;
     right: 0;
-    width: 200px;
+    width: 250px;
     z-index: 999;
     background-color: #111;
     height: 100vh;
@@ -14,27 +29,61 @@ body{
 }
 
 .close_menu i{
-    font-size: 20px;
     width: 50px;
     color: #fff;
+
+    font-size: 18px;
+    color: #fff;
+    transition: .3s;
+    cursor: pointer;
 }
 
 .form_search{
-    margin-top: 40px;
+    margin-top: 30px;
+    display: flex;
+    position: relative;
 }
 
-#FFCE1C
 
-.search_menu{
+.search_button{
+    background-color: #FFCE1C;
+    padding: 5px;
+    border: 0;
+    padding: 12px;
+}
+
+.search_input{
+    border: 1px solid #2d3547;
+    margin: 0;
+    width: 100%;
+    background: none;
+    padding: 7px 10px;
+    color: #fff;
+    outline: none;
 
 }
 
 .menu_info ul{
-
+    margin-top: 25px;
     padding: 0;
 }
 
+
+
+.menu_info ul li a{
+   
+    text-transform: capitalize;
+    color: #fff;
+    font-size: 18px;
+    text-decoration: none;
+}
+
 .menu_info ul li{
+    padding-top: 10px;
+    padding-bottom: 4px;
+
+    border-bottom: 1px solid #101c38;
     list-style-type: none;
     margin: 0;
 }
+

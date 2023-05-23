@@ -5,36 +5,45 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+    <link rel="stylesheet" href="style/reset.css">
     <link rel="stylesheet" href="style/style.css">
 
     <link rel="stylesheet" href="style/all.min.css">
 
 </head>
 <body>
-    <div class="panel_active">
-        <div class="close_menu">
-            <i class="fa-solid fa-x"></i>
+    <!-- START Panels -->
+    <div class="panel_overlay">
+        <div class="menu">
+            <div class="close_menu">
+                <i class="fa-solid fa-x"></i>
+            </div>
+            <form role="search" method="get" class= "form_search">
+                <input type="text" name="text" class="search_input" placeholder="Search here!">
+                <button class="search_button">
+                    <i class="fa-solid fa-magnifying-glass search_menu"></i>
+                </button>
+            </form>
+            <div class="menu_info">
+                <ul>
+                    <li>
+                        <a href="#">
+                            <span class="span_info">+8 12 3456897</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="span_info">info@example.com</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
         </div>
-        <form role="Search" method="get" class="form_search">
-            <input type="text" name="text" class="search" placeholder="Search here!">
-            <button>
-                <i class="fa-solid fa-magnifying-glass search_menu"></i>
-            </button>
-        </form>
-        <div class="menu_info">
-            <ul>
-                <li>
-                    <a href="#">
-                        <span>+8 12 3456897</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        <span>info@example.com</span>
-                    </a>
-                </li>
-            </ul>
-        </div>
+        <div class="overlay"></div>
     </div>
+
+    <div class="content"></div>
+     <!-- END Panels -->
 </body>
 </html>
