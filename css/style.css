@@ -58,13 +58,13 @@ body{
 }
 
 <<<<<<< HEAD
-.size_100{
+.wrap{
 	width: 100%;
-	height: 100vh;
+	height: auto;
 	background-color: inherit;
 	position: relative;
-
 }
+
 .FixBtn{
 	width: 45px;
 	height: 45px;
