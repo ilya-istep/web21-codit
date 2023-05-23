@@ -1,0 +1,300 @@
+body{
+    background-color: darkkhaki;
+}
+
+.panel_overlay{
+    display: none;
+}
+
+.overlay{
+    position: fixed;
+    background: #000;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    opacity: 0.3;
+    z-index: 998;
+}
+
+.menu{
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 250px;
+    z-index: 999;
+    background-color: #111;
+    height: 100vh;
+    padding: 30px;
+}
+
+.close_menu i{
+    width: 50px;
+    color: #fff;
+
+    font-size: 18px;
+    color: #fff;
+    transition: .3s;
+    cursor: pointer;
+}
+
+.form_search{
+    margin-top: 30px;
+    display: flex;
+    position: relative;
+}
+
+
+.search_button{
+    background-color: #FFCE1C;
+    padding: 5px;
+    border: 0;
+    padding: 12px;
+}
+
+.search_input{
+    border: 1px solid #2d3547;
+    margin: 0;
+    width: 100%;
+    background: none;
+    padding: 7px 10px;
+    color: #fff;
+    outline: none;
+
+}
+
+.menu_info ul{
+    margin-top: 25px;
+    padding: 0;
+}
+
+
+
+.menu_info ul li a{
+   
+    text-transform: capitalize;
+    color: #fff;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.menu_info ul li{
+    padding-top: 10px;
+    padding-bottom: 4px;
+
+    border-bottom: 1px solid #101c38;
+    list-style-type: none;
+    margin: 0;
+}
+
+
+/*             JS          */
+/* Навешивает css и убирает панель */
+.active_panel{
+    display: block;
+}
+
+/*            JS            */
+
+
+
+/*      Менюшка с курочкой           */
+body{
+	background-color: black;
+	margin: 0;
+	font-family:'Oswald', sans-serif;
+}
+
+.shop{
+	border-right: 1px solid gray;
+}
+
+
+/*         Ладин блок             */
+.menu_buton_lada{
+	border: 1px solid gray;
+	border-radius: 23px;
+	display: flex;
+	width: 5%;
+	margin: 3% 33%;
+}
+.shop{
+	border-right: 1px solid gray;
+}
+.menu_buton_lada i{
+	color: white;
+	margin: 15px;
+}
+/*          Ладин Блок           */
+
+
+.tagline{
+	width:420px;
+	float: left;
+	margin-right: 50px;
+	margin-top:30px;
+}
+.tagline h2{
+	font-size:70px;
+	font-weight: 700;
+	color: #fff;
+	text-align: right;
+	margin:0;
+	line-height:80px;
+	font-style:normal;
+	user-select: none;
+	-khtml-user-select: none;
+	 user-select: none;
+	 letter-spacing: 1px;
+}
+.tagline h2 b{
+	color:#ffce1c;
+	font-weight: 400;
+	font-size:65px;
+}
+.tagline_body{
+	overflow: hidden;
+	margin-left:250px;
+	max-width: 1200px;
+}
+.tagline p{
+	color:#fff;
+	font-size:18px;
+	text-align: right;
+	margin:30px 0;
+	user-select: none;
+	-khtml-user-select: none;
+	 user-select: none;
+}
+.tagline_button{
+	text-decoration: none;
+	color:#000;
+	background: #ffce1c;
+	width:180px;
+	height:60px;
+	border-radius:50px;
+	text-align: center;
+	padding-top:20px;
+	box-sizing: border-box;
+	float:right;
+	cursor:pointer;
+	transition: 0.3s ease;
+	font-weight: 500;
+}
+
+.tagline_button:hover{
+	background: #ff6f1c;
+	color:#fff;
+}
+/*  Менюшка с курочкой     */
+
+
+
+
+/* меню саня */
+
+.menu_san{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 44px;
+}
+.book_seat{
+	font-family: 'Roboto', sans-serif;
+	text-align: center;
+	margin-top: 22px;
+	height: 60px;
+	width: 170px;
+	border-radius: 40px;
+	align-items: center;
+	display: flex;
+	justify-content: center;
+	background-color: #FFCE1C;
+	margin-right: 60px;
+	transition: 0.5s
+}
+.book_seat a{
+  align-items: center;
+  text-decoration: none;
+  color: #000;
+  font-weight: 500;
+}
+.book_seat a:before {
+  content: '';
+  top: 0;
+  left: 0;
+  width: 10%;
+  height: 10%;
+}
+.book_seat:hover{
+	background-color: #ff6f1c;
+}
+.book_seat:hover a{
+	color: #fff;
+}
+
+.shop{
+	border-right: 1px solid gray;
+}
+
+
+.tagline{
+	width:420px;
+	float: left;
+	margin-right: 50px;
+	margin-top:30px;
+}
+.tagline h2{
+	font-size:70px;
+	font-weight: 700;
+	color: #fff;
+	text-align: right;
+	margin:0;
+	line-height:80px;
+	font-style:normal;
+	user-select: none;
+	-khtml-user-select: none;
+	 user-select: none;
+	 letter-spacing: 1px;
+}
+.tagline h2 b{
+	color:#ffce1c;
+	font-weight: 400;
+	font-size:65px;
+}
+.tagline_body{
+	overflow: hidden;
+	margin-left:250px;
+	max-width: 1200px;
+}
+.tagline p{
+	color:#fff;
+	font-size:18px;
+	text-align: right;
+	margin:30px 0;
+	user-select: none;
+	-khtml-user-select: none;
+	 user-select: none;
+}
+.tagline_button{
+	text-decoration: none;
+	color:#000;
+	background: #ffce1c;
+	width:180px;
+	height:60px;
+	border-radius:50px;
+	text-align: center;
+	padding-top:20px;
+	box-sizing: border-box;
+	float:right;
+	cursor:pointer;
+	transition: 0.3s ease;
+	font-weight: 500;
+}
+
+.tagline_button:hover{
+	background: #ff6f1c;
+	color:#fff;
+}
+
+
+/* меню саня */
