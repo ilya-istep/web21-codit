@@ -1,6 +1,45 @@
 body{
 	background-color: black;
 }
+
+.menu{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 44px;
+}
+.book_seat{
+	font-family: 'Roboto', sans-serif;
+	text-align: center;
+	margin-top: 22px;
+	height: 60px;
+	width: 170px;
+	border-radius: 40px;
+	align-items: center;
+	display: flex;
+	justify-content: center;
+	background-color: #FFCE1C;
+	margin-right: 60px;
+	transition: 0.5s
+}
+.book_seat a{
+  align-items: center;
+  text-decoration: none;
+  color: #000;
+  font-weight: 500;
+}
+.book_seat a:before {
+  content: '';
+  top: 0;
+  left: 0;
+  width: 10%;
+  height: 10%;
+}
+.book_seat:hover{
+	background-color: #ff6f1c;
+}
+.book_seat:hover a{
+	color: #fff;
+}
 .menu_buton{
 	border: 1px solid gray;
 	border-radius: 23px;
