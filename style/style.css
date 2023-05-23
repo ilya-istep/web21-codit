@@ -1,0 +1,40 @@
+body{
+    background-color: gray;
+}
+
+.panel_active{
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 200px;
+    z-index: 999;
+    background-color: #111;
+    height: 100vh;
+    padding: 30px;
+}
+
+.close_menu i{
+    font-size: 20px;
+    width: 50px;
+    color: #fff;
+}
+
+.form_search{
+    margin-top: 40px;
+}
+
+#FFCE1C
+
+.search_menu{
+
+}
+
+.menu_info ul{
+
+    padding: 0;
+}
+
+.menu_info ul li{
+    list-style-type: none;
+    margin: 0;
+}
