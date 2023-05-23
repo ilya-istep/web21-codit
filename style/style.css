@@ -17,10 +17,6 @@ body{
     z-index: 998;
 }
 
-.content{
-    height: 2000px;
-}
-
 .menu{
     position: fixed;
     top: 0;
@@ -93,8 +89,6 @@ body{
 
 
 /*             JS          */
-
-
 /* Навешивает css и убирает панель */
 .active_panel{
     display: block;
@@ -123,5 +117,88 @@ body{
 	margin: 15px;
 }
 
-
 /*          Ладин Блок           */
+
+
+/*      Менюшка с курочкой           */
+
+body{
+	background-color: black;
+	margin: 0;
+	font-family:'Oswald', sans-serif;
+}
+.menu_buton{
+	border: 1px solid gray;
+	border-radius: 23px;
+	display: flex;
+	width: 5%;
+	margin: 3% 33%;
+}
+.shop{
+	border-right: 1px solid gray;
+}
+.menu_buton i{
+	color: white;
+	margin: 15px;
+}
+
+.tagline{
+	width:420px;
+	float: left;
+	margin-right: 50px;
+	margin-top:30px;
+}
+.tagline h2{
+	font-size:70px;
+	font-weight: 700;
+	color: #fff;
+	text-align: right;
+	margin:0;
+	line-height:80px;
+	font-style:normal;
+	user-select: none;
+	-khtml-user-select: none;
+	 user-select: none;
+	 letter-spacing: 1px;
+}
+.tagline h2 b{
+	color:#ffce1c;
+	font-weight: 400;
+	font-size:65px;
+}
+.tagline_body{
+	overflow: hidden;
+	margin-left:250px;
+	max-width: 1200px;
+}
+.tagline p{
+	color:#fff;
+	font-size:18px;
+	text-align: right;
+	margin:30px 0;
+	user-select: none;
+	-khtml-user-select: none;
+	 user-select: none;
+}
+.tagline_button{
+	text-decoration: none;
+	color:#000;
+	background: #ffce1c;
+	width:180px;
+	height:60px;
+	border-radius:50px;
+	text-align: center;
+	padding-top:20px;
+	box-sizing: border-box;
+	float:right;
+	cursor:pointer;
+	transition: 0.3s ease;
+	font-weight: 500;
+}
+
+.tagline_button:hover{
+	background: #ff6f1c;
+	color:#fff;
+}
+
+/*  Менюшка с курочкой     */
