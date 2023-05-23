@@ -4,10 +4,15 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Главная страница</title>
-	<link rel="stylesheet" href="css/reset.css">
-	<link rel="stylesheet" href="css/all.min.css">
-	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+	
+	<link rel="stylesheet" href="style/style.css">
+	<link rel="stylesheet" href="style/all.min.css">
+	<link rel="stylesheet" type="text/css" href="style/style.css">
 	<link rel="icon" href="favicon.png" type="image/x-icon" >
+
+
+
 </head>
 <body>
 
@@ -16,8 +21,39 @@
 		<div class="bar"><i class="fas fa-bars"></i></div>
 	</div>
 
+	<!-- START Panels -->
+	<div class="panel_overlay">
+        <div class="menu">
+            <div class="close_menu">
+                <i class="fa-solid fa-x"></i>
+            </div>
+            <form role="search" method="get" class= "form_search">
+                <input type="text" name="text" class="search_input" placeholder="Search here!">
+                <button class="search_button">
+                    <i class="fa-solid fa-magnifying-glass search_menu"></i>
+                </button>
+            </form>
+            <div class="menu_info">
+                <ul>
+                    <li>
+                        <a href="#">
+                            <span class="span_info">+8 12 3456897</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="span_info">info@example.com</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="overlay"></div>
+    </div>
+    <div class="content"></div>
+    <!-- END Panels -->
+
 	
 	<script src="js/btn.js"></script>	
-
 </body>
 </html>
