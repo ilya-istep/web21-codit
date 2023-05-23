@@ -2,6 +2,8 @@ body{
     background-color: gray;
 }
 
+
+
 .overlay{
     position: fixed;
     background: #000;
@@ -86,4 +88,15 @@ body{
     list-style-type: none;
     margin: 0;
 }
+
+
+/*             JS          */
+
+
+/* Навешивает css и убирает панель */
+.active_panel{
+    display: none;
+}
+
+/*            JS            */
 
