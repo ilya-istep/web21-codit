@@ -1,5 +1,7 @@
 body{
 	background-color: black;
+	margin: 0;
+	font-family:'Oswald', sans-serif;
 }
 
 .menu{
@@ -54,3 +56,63 @@ body{
 	color: white;
 	margin: 15px;
 }
+
+.tagline{
+	width:420px;
+	float: left;
+	margin-right: 50px;
+	margin-top:30px;
+}
+.tagline h2{
+	font-size:70px;
+	font-weight: 700;
+	color: #fff;
+	text-align: right;
+	margin:0;
+	line-height:80px;
+	font-style:normal;
+	moz-user-select: none;
+	-khtml-user-select: none;
+	 user-select: none;
+	 letter-spacing: 1px;
+}
+.tagline h2 b{
+	color:#ffce1c;
+	font-weight: 400;
+	font-size:65px;
+}
+.tagline_body{
+	overflow: hidden;
+	margin-left:250px;
+	max-width: 1200px;
+}
+.tagline p{
+	color:#fff;
+	font-size:18px;
+	text-align: right;
+	margin:30px 0;
+	moz-user-select: none;
+	-khtml-user-select: none;
+	 user-select: none;
+}
+.tagline_button{
+	text-decoration: none;
+	color:#000;
+	background: #ffce1c;
+	width:180px;
+	height:60px;
+	border-radius:50px;
+	text-align: center;
+	padding-top:20px;
+	box-sizing: border-box;
+	float:right;
+	cursor:pointer;
+	transition: 0.3s ease;
+	font-weight: 500;
+}
+
+.tagline_button:hover{
+	background: #ff6f1c;
+	color:#fff;
+}
+
