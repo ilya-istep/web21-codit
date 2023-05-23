@@ -3,7 +3,8 @@ html{
 	font-size: 10px;
 }
 body{
-	background: #444;
+	background: #111;
+	font-family: 'Oswald', sans-serif;
 }
 .menu_bar{
 	font-family: 'Poppins', sans-serif;
@@ -130,7 +131,6 @@ body{
 }
 
 .tagline{
-	font-family: 'Oswald', sans-serif;
 	width:400px;
 	float: left;
 	margin-right: 50px;
@@ -284,3 +284,4 @@ body{
 }
 
 /*            JS            */
+
