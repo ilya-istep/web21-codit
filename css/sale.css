@@ -2,7 +2,7 @@
 	position: relative;
 }
 .sale_banner{
-	background-image: url("image/offer.png");
+	background-image: url("../image/offer.png");
 	width: 370px;
 	height: 318px;
 	position: absolute;
