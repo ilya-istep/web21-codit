@@ -1,24 +1,46 @@
 body{
 	margin: 0;
 	background: grey;
+	font-family:'Oswald', sans-serif;
 }
 
 .tagline{
 	width:420px;
-	margin:0 auto;
+	float: left;
+	margin-right: 50px;
 }
 .tagline h2{
-	font-size:80px;
+	font-size:77px;
 	font-weight: 700;
-	font-family:'Oswald', sans-serif;
 	color: #fff;
-	float: left;
+	text-align: right;
+	margin:0;
+	line-height:80px;
 }
 .tagline h2 b{
 	color:#ffce1c;
 	font-weight: 400;
+	font-size:70px;
 }
 .tagline_body{
 	overflow: hidden;
+	margin-left:300px;
+	max-width: 1200px;
+}
+.tagline p{
+	color:#fff;
+	font-size:18px;
+	text-align: right;
+	margin:30px 0;
+}
+.tagline_button{
+	background: #ffce1c;
+	width:180px;
+	height:60px;
+	border-radius:20px;
+	text-align: center;
+	padding-top:20px;
+	box-sizing: border-box;
+	float:right;
 }
 
