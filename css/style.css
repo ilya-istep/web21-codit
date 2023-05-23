@@ -1,0 +1,17 @@
+body{
+	background-color: black;
+}
+.menu_buton{
+	border: 1px solid gray;
+	border-radius: 23px;
+	display: flex;
+	width: 5%;
+	margin: 3% 33%;
+}
+.shop{
+	border-right: 1px solid gray;
+}
+.menu_buton i{
+	color: white;
+	margin: 15px;
+}
