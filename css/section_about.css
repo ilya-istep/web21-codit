@@ -80,16 +80,32 @@
 }
 .wrap_block{
 	margin-left: 145px;
-	margin-top: -35px;
+	position: relative;
 }
 .dop_block{
 	height: 155px;
 	width: 155px;
 	background-color: #242424;
 	text-align: center;
+	z-index: 100;
+	position: relative;
 }
 #about .dop_block p{
 	padding: 0;
+}
+#about .dop_block h2{
+	margin: 0;
+}
+#about .dop_block h2:after{
+	content: "+";
+	color: var(--yellow);
+	font-size: 14px;
+}
+#about .yellow_block{
+	position: absolute;
+	top: 50%;
+	right: 50%;
+	
 }
 @media (min-width: 576px) and (max-width: 767px){
 	.container{
