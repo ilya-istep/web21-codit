@@ -78,7 +78,19 @@
 	width: 100%;
 	margin: 0 auto;
 }
-
+.wrap_block{
+	margin-left: 145px;
+	margin-top: -35px;
+}
+.dop_block{
+	height: 155px;
+	width: 155px;
+	background-color: #242424;
+	text-align: center;
+}
+#about .dop_block p{
+	padding: 0;
+}
 @media (min-width: 576px) and (max-width: 767px){
 	.container{
 		width: 540px;
