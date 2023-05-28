@@ -357,7 +357,7 @@ body{
 }
 
 
-/* Женя + Ваня  */
+/* Женя + Ваня */
 
 #core_feature{
 	background-image: url('./images/ivan_jenny/bg.png');
@@ -379,14 +379,14 @@ body{
 }
 
 .core_feature_header span{
-
-	font-size: 2.5rem;
-    font-weight: 400;
+	font-family: 'Archivo', sans-serif;
+	font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 2px;
     text-transform: uppercase;
-    color: #999999;
-    letter-spacing: 3px;
+    color: #999999;	
     display: inline-block;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 
@@ -395,10 +395,11 @@ body{
 	font-size: 6rem;
 	color: #fff;
 	margin-bottom: 8px;
+	font-weight: 700;
 }
 
 .core_feature_header img{
-	margin-top: 8px;
+	margin-top: 15px;
 }
 
 .core_feature_content{
@@ -418,17 +419,21 @@ body{
 
 
 .core_feature_content .block_core{
-	width: 20%;
+	width: 23%;
 	padding: 70px 40px;
 	border: 4px solid #FFFFFF1A;
+	font-family: 'Archivo', sans-serif;
+	margin-bottom: 150px;
 }
 
 .ivan_down p{
 	text-align: center;
-	width: 80%;
+	width: 120%;
 	margin: 0 auto;
+	margin-left: -25px;
 	margin-bottom: 20px;
 	color: #b8b8b8;
+	line-height: 25px
 }
 
 .ivan_down a{
@@ -436,10 +441,37 @@ body{
 	text-align: center;
 	color: white;
 	display: block;
-	width: 30%;
+	width: 35%;
 	padding: 8px;
 	margin: 0 auto;
 
 }
+.ivan_down img{
+	margin: 0 auto;
+	text-align: center;
+	display: block;
+	margin-bottom: 30px;
+}
 
-/* Женя + Ваня  */
+.jennie_hover a{ 
+	color: #fff;
+	width: 80%;
+	font-weight: 700;
+	font-size: 26px;
+	text-align: center;
+	text-decoration: none;
+	margin: 0 auto;
+
+}
+.jennie_hover{
+	margin-bottom: 60px;
+	padding: 0px;
+	font-size: 26px;
+	font-weight: 700;
+	letter-spacing: 0;
+	font-family: 'Oswald', sans-serif;
+}
+.jennie_hover a:hover{
+	color: yellow;
+}
+/* Женя + Ваня */
