@@ -1,11 +1,11 @@
 .wrap_banner{
-	position: relative;
+	position: absolute;
 }
 .sale_banner{
 	background-image: url("../image/offer.png");
 	width: 370px;
 	height: 318px;
 	position: absolute;
-	top: 580px;
-	left: 450px;
+	top: -580px;
+	left: 850px;
 }

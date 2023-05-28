@@ -4,28 +4,94 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Главная страница</title>
-	<link rel="stylesheet" href="css/reset.css">
+
+	
 	<link rel="stylesheet" href="css/all.min.css">
+	<link rel="stylesheet" href="css/reset.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<link rel="icon" href="favicon.png" type="image/x-icon" >
-	<link rel="stylesheet" href="css/sale.css">
+	<link rel="stylesheet" type="text/css" href="css/section_about.css">
+	<link rel="icon" href="images/favicon.png" type="image/x-icon" >
 	<link href="https://fonts.cdnfonts.com/css/roboto" rel="stylesheet">
-</head>
+	<link rel="stylesheet" type="text/css" href="css/sale.css">
+	</head>
 <body>
-	<div class="menu">
+
+	<!-- START Саня Меню -->
+	<div class="menu_san">
 		<div class="logo">
 			<a href="#"><img src="images\logo.png" alt=""></a>
 		</div>
-		<div class="menu_buton">
+		<!-- START Лада панель -->
+		<div class="menu_buton_lada">
 			<div class="shop"><i class="fas fa-shopping-cart"></i></div>
 			<div class="bar"><i class="fas fa-bars"></i></div>
 		</div>
+		<!-- END Лада панель -->
+		<!-- START Menu Maksim -->
+		<div class="menu_bar">
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">About an>Page</span>
+					<ul>
+						<li class="but2"><span>Blog</span>
+							<ul>
+								<li><a href="#">Blog Grid</a></li>
+								<li><a href="#">Blog Rigth Sidebar</a></li>
+								<li><a href="#">Blog Left Sidebar</a></li>
+								<li><a href="#">Blog Details</a></li>
+							</ul>
+						</li>
+						<li><a href="#">Gallery</a></li>
+						<li><a href="#">Team</a></li>
+						<li><a href="#">Shop</a></li>
+						<li><a href="#">Shop Details</a></li>
+					</ul>
+				</li>
+				<li><a href="#">Contact</a></li>
+			</ul>
+		</div>	
+		<!-- END Menu Maksim -->
+
 		<div class="book_seat">
 			<a href="#">BOOK SEAT</a>
 		</div>
 	</div>
-	
+	<!-- END Саня Меню -->
 
+	<!-- START Panels  Ваня -->
+	<div class="panel_overlay">
+        <div class="menu">
+            <div class="close_menu">
+                <i class="fas fa-times"></i>
+            </div>
+            <form role="search" method="get" class= "form_search">
+                <input type="text" name="text" class="search_input" placeholder="Search here!">
+                <button class="search_button">
+                    <i class="fa-solid fa-magnifying-glass search_menu"></i>
+                </button>
+            </form>
+            <div class="menu_info">
+                <ul>
+                    <li>
+                        <a href="#">
+                            <span class="span_info">+8 12 3456897</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="span_info">info@example.com</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="overlay"></div>
+    </div>
+    <div class="content"></div>
+    <!-- END Panels Ваня -->
+
+
+	<!-- START Данил менюшка -->
 	<div class="tagline_body">
 		<div class="tagline">
 			<h2><b>WE TAKE</b> PRIDE IN OUR FOOD</h2>
@@ -35,15 +101,109 @@
 			</div>
 		</div>
 		<div class="tagline_img">
-			<img src="img/header-img.png" alt="">
+			<img src="images/header-img.png" alt="">
+		</div>
+		<!-- sale denis -->
+		<div class="wrap_banner">	
+			<div class="sale_banner"></div>
+		</div>
+	</div>
+	<!-- END Данил Менюшка -->
+
+	<!-- START Maksim section -->
+	<section id="about">
+		<div class="wrap container">
+			<div class="photo">
+				<img src="images/about/about.png" alt="about">
+			</div>
+			<div class="content">
+				<div class="sec_1">
+					<div class="sec_1_1">
+						<span>About us</span>
+						<h2>Located in a small town</h2>
+						<p>Made of fresh & premium ingredients</p>
+					</div>
+					<div class="sec_1_2">
+						<!-- Сюда вставлять элемент Лада -->
+						<div class="wrap_block">
+							<img src="images/about/y-bg.png" class="yellow_block">
+							<div class="dop_block">
+								<h2>25</h2>				
+								<p>YEARS OF EXPERIENCE</p>
+							</div>
+						</div>
+						
+					</div>
+				</div>
+				<div class="sec_2">
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam
+					</p>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam
+					</p>
+				</div>
+				<div class="sec_3">
+					<div class="author">
+						<img src="images/about/avatar.png" alt="avatar">
+						<div class="text">
+							<h3>Jemi D. William</h3>
+							<span>Founder</span>
+						</div>
+					</div>
+					<div class="signature">
+						<img src="images/about/signature.png" alt="signature">
+					</div>
+				</div>
+			</div>
 		</div>
 
+	
+	</section>
 
-		<script src="js/btn.js"></script>
+	
+	<!-- START Ваня + Женя -->
 
 	</div>
-	<div class="wrap_banner">	
-		<div class="sale_banner"></div>
-	</div>
+	
+
+		<section id="core_feature" style="background-image: url(images/ivan_jenny/bg.png);">
+		<header class="core_feature_header">
+			<span>feature</span>
+			<h2>CORE FEATURS</h2>
+			
+			
+			<img src="./images/ivan_jenny/line.png" alt="yellow">
+		</header>
+
+		<div class="core_feature_content">
+			<div class="block_core">
+				<div class="ivan_down">	
+					<p>Lorem ipsum dolor sit amet, consectet ur adipisicing elit, sed do eiusmod tempor incididunt ut lab.</p>
+					<a href="#">Read More</a>
+				</div>
+			</div>
+
+			<div class="block_core">
+				<div class="ivan_down">
+					<p>Lorem ipsum dolor sit amet, consectet ur adgitipisicing elit, sed do eiusmod tempor incididunt ut lab.</p>
+					<a href="#">Read More</a>
+				</div>
+			</div>
+			
+			<div class="block_core">
+				<div class="ivan_down">
+					<p>Lorem ipsum dolor sit amet, consectet ur adipisicing elit, sed do eiusmod tempor incididunt ut lab.</p>
+					<a href="#">Read More</a>
+				</div>
+			</div>
+		
+		</div>
+	</section>
+
+	<!-- END Ваня + Женя -->
+	
+	<!-- END Maksim section -->
+
 </body>
 </html>
