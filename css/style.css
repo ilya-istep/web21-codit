@@ -12,6 +12,7 @@ body{
 	font-family: 'Oswald', sans-serif;
 }
 
+/*START Женя*/
 .wrap_btn{
 	position: relative;
 	background-color: inherit;
@@ -31,6 +32,7 @@ body{
 	margin-left: 15px;
 	font-size: 23px;
 }
+/*END Женя*/
 
 .menu_bar{
 	font-family: 'Poppins', sans-serif;
@@ -441,7 +443,7 @@ body{
 	justify-content:space-around;
 	width: 1200px;
 	margin: 0 auto;
-	
+
 	background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
