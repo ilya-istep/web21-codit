@@ -389,9 +389,7 @@ body{
 	cursor: pointer;
 }
 
-
 /* Женя + Ваня */
-
 #core_feature{
 	background-image: url('./images/ivan_jenny/bg.png');
 	background-repeat: none;
@@ -422,7 +420,6 @@ body{
     margin-bottom: 30px;
 }
 
-
 .core_feature_header h2{
 	text-transform: uppercase;
 	font-size: 6rem;
@@ -444,13 +441,11 @@ body{
 	justify-content:space-around;
 	width: 1200px;
 	margin: 0 auto;
-	/* padding-bottom: 300px; */
-
+	
 	background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
 }
-
 
 .core_feature_content .block_core{
 	width: 23%;
