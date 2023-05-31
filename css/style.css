@@ -13,10 +13,6 @@ body{
 }
 
 /*START Женя*/
-.wrap_btn{
-	position: relative;
-	background-color: inherit;
-}
 .FixBtn{
 	width: 45px;
 	height: 45px;
@@ -26,7 +22,6 @@ body{
 	left: 94%;
 	position: fixed;
 	cursor: pointer;
-
 }
 .FixBtn a{
 	margin-left: 15px;
